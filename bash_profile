@@ -1,4 +1,4 @@
-alias for sublime
+# alias for sublime
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 
 # shorter back out
@@ -41,6 +41,7 @@ alias eatsass='cd /Users/arbitrarily/Git/willmcavoy/public/wp-content/themes/new
 alias aggro='cd /Users/arbitrarily/Git/datnexus'
 alias aggrosass='cd /Users/arbitrarily/Git/datnexus/wp-content/themes/datnexus/grunt'
 
+# hosts file
 alias hosts='vim /etc/hosts'
 
 # find todos
@@ -154,14 +155,5 @@ export EDITOR='subl -w'
 
 # For me
 export EDITOR='subl .'
-
-
-
-
-
-
-
-
-
 
 
