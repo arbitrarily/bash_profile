@@ -34,10 +34,6 @@ alias grep='grep --color=auto'
 # common projects
 alias lexi='cd /Users/arbitrarily/Git/lexichronic-v3/'
 alias lexisass='cd /Users/arbitrarily/Git/lexichronic-v3/wp-content/themes/lexiv3/grunt'
-alias f35='cd /Users/arbitrarily/Git/f35-elitedaily/'
-alias f35sass='cd /Users/arbitrarily/Git/f35-elitedaily/f35elitedaily/wordpress/wp-content/themes/strangelove/source/src/'
-alias eat='cd /Users/arbitrarily/Git/willmcavoy/public'
-alias eatsass='cd /Users/arbitrarily/Git/willmcavoy/public/wp-content/themes/newsroom/source/'
 alias aggro='cd /Users/arbitrarily/Git/datnexus'
 alias aggrosass='cd /Users/arbitrarily/Git/datnexus/wp-content/themes/datnexus/grunt'
 
