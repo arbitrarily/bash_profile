@@ -7,9 +7,6 @@ alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 
-# bash
-alias bash='vim ~/.bash_profile'
-
 # shorter back out
 alias ..='cd ..'
 alias ...='cd ../../../'
