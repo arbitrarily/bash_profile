@@ -147,12 +147,6 @@ function parse_git_branch() {
 export PS1="\[${BOLD}${MAGENTA}\]\u \[$WHITE\]$WHITE\]in \[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]\n\$ \[$RESET\]"
 export PS2="\[$ORANGE\]→ \[$RESET\]"
 
-# For those used to subl -w
-export EDITOR='subl -w'
-
-# For me
-export EDITOR='subl .'
-
 export HISTIGNORE='pwd:ls:history:'
 
 # keep the history size up to 4096 lines
@@ -291,8 +285,5 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 # export PATH=/usr/local/share/npm/lib/node_modules/grunt-cli/bin:$PATH
 # export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/Users/arbitrarily/pear/bin:~/.composer/vendor/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/share/npm/lib/node_modules/grunt-cli/bin:/usr/sbin/apachectl:/usr/sbin:/usr/local/opt/php56/libexec/apache2:/usr/local/share/npm/bin:
-
-# Editor
-export EDITOR='subl .'
 
 
