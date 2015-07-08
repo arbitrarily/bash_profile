@@ -10,9 +10,6 @@ alias .....='cd ../../../../'
 # bash
 alias bash='vim ~/.bash_profile'
 
-# don't record these commands in the history# alias for sublime
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-
 # shorter back out
 alias ..='cd ..'
 alias ...='cd ../../../'
@@ -23,7 +20,7 @@ alias .....='cd ../../../../'
 alias bash='vim ~/.bash_profile'
 
 # don't record these commands in the history
-export HISTIGNORE='pwd:ls:history:'
+export HISTIGNORE='pwd:ls:history:subl:open'
 
 # keep the history size up to 4096 lines
 export HISTSIZE=4096
@@ -73,13 +70,13 @@ alias ungit='find . -name '.git' -exec rm -rf {} \;'
 # alias chrome='open -a \"Google Chrome\"'
 
 # IP info
-alias ip='curl http://ipecho.net/plain; echo'
 # alias ip="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
+alias ip='curl http://ipecho.net/plain; echo'
 
 # computer power options
-alias reboot='sudo /sbin/reboot'
 # alias poweroff='sudo /sbin/poweroff'
 # alias halt='sudo /sbin/halt'
+alias reboot='sudo /sbin/reboot'
 alias shutdown='sudo /sbin/shutdown'
 alias lock='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
@@ -97,9 +94,6 @@ alias glg='git log --date-order --all --graph --format="%C(green)%h%Creset %C(ye
 
 # git log files changed
 alias glg2='git log --date-order --all --graph --name-status --format="%C(green)%H%Creset %C(yellow)%an%Creset %C(blue bold)%ar%Creset %C(red bold)%d%Creset%s"'
-
-# Set the default editor to vim.
-export EDITOR=vim
 
 # Clean VIM swp
 alias vimclean="find . -iname '*sw[po]' -print -delete"
@@ -301,10 +295,7 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 # export PATH="/usr/local/share/npm/bin:$PATH"
 export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/Users/arbitrarily/pear/bin:~/.composer/vendor/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/share/npm/lib/node_modules/grunt-cli/bin:/usr/sbin/apachectl:/usr/sbin:/usr/local/opt/php56/libexec/apache2:/usr/local/share/npm/bin:
 
-# For those used to subl -w
-export EDITOR='subl -w'
-
-# For me
+# Editor
 export EDITOR='subl .'
 
 
