@@ -16,21 +16,6 @@ alias .....='cd ../../../../'
 # bash
 alias bash='vim ~/.bash_profile'
 
-# don't record these commands in the history
-export HISTIGNORE='pwd:ls:history:subl:open'
-
-# keep the history size up to 4096 lines
-export HISTSIZE=4096
-
-# timestamps in history
-export HISTTIMEFORMAT='%F %T '
-
-# record only the most recent duplicated command (see above)
-export HISTCONTROL=ignoreboth
-
-# history
-alias h='history'
-
 # reload shell
 alias reload='source ~/.bash_profile'
 
@@ -147,7 +132,8 @@ function parse_git_branch() {
 export PS1="\[${BOLD}${MAGENTA}\]\u \[$WHITE\]$WHITE\]in \[$GREEN\]\w\[$WHITE\]\$([[ -n \$(git branch 2> /dev/null) ]] && echo \" on \")\[$PURPLE\]\$(parse_git_branch)\[$WHITE\]\n\$ \[$RESET\]"
 export PS2="\[$ORANGE\]→ \[$RESET\]"
 
-export HISTIGNORE='pwd:ls:history:'
+# don't record these commands in the history
+export HISTIGNORE='pwd:ls:history:subl:open:h'
 
 # keep the history size up to 4096 lines
 export HISTSIZE=4096
