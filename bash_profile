@@ -33,7 +33,7 @@ alias nt='cd /Users/arbitrarily/Git/jetway'
 alias hosts='sudo vim /etc/hosts'
 
 # keys
-alias keys='vim ~/.ssh/id_rsa.pub'
+alias keys='pbcopy < ~/.ssh/id_rsa.pub'
 
 # find todos
 alias todos='ack -n --nogroup "(TODO|FIND|FIX(ME)?):"'
