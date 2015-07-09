@@ -7,12 +7,6 @@ alias ...='cd ../../../'
 alias ....='cd ../../../../'
 alias .....='cd ../../../../'
 
-# shorter back out
-alias ..='cd ..'
-alias ...='cd ../../../'
-alias ....='cd ../../../../'
-alias .....='cd ../../../../'
-
 # bash
 alias bash='vim ~/.bash_profile'
 
@@ -270,6 +264,7 @@ export PS2="\[$ORANGE\]→ \[$RESET\]"
 # export PATH=/usr/local/bin:$PATH
 # export PATH=/usr/local/share/npm/lib/node_modules/grunt-cli/bin:$PATH
 # export PATH="/usr/local/share/npm/bin:$PATH"
-export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/Users/arbitrarily/pear/bin:~/.composer/vendor/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/share/npm/lib/node_modules/grunt-cli/bin:/usr/sbin/apachectl:/usr/sbin:/usr/local/opt/php56/libexec/apache2:/usr/local/share/npm/bin:
+
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/Users/arbitrarily/pear/bin:~/.composer/vendor/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/local/mysql/bin:/usr/local/share/npm/lib/node_modules/grunt-cli/bin:/usr/sbin/apachectl:/usr/sbin:/usr/local/opt/php56/libexec/apache2:/usr/local/share/npm/bin
 
 
