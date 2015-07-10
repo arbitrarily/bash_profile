@@ -25,6 +25,9 @@ alias reload='source ~/.bash_profile'
 # edit httpd.conf
 alias httpd='sudo vim /etc/apache2/httpd.conf'
 
+# edit httpd-vhosts.conf
+alias vhosts='sudo vim /private/etc/apache2/extra/httpd-vhosts.conf'
+
 # colored search in files
 alias grep='grep --color=auto'
 
