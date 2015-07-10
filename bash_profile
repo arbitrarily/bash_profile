@@ -36,7 +36,7 @@ alias lexi='cd /Users/arbitrarily/Git/lexichronic-v3/'
 alias lexisass='cd /Users/arbitrarily/Git/lexichronic-v3/wp-content/themes/lexiv3/grunt'
 alias aggro='cd /Users/arbitrarily/Git/datnexus'
 alias aggrosass='cd /Users/arbitrarily/Git/datnexus/wp-content/themes/datnexus/grunt'
-alias nt='cd /Users/arbitrarily/Git/jetway'
+alias nt='cd /Users/arbitrarily/Git/nextravel'
 
 # hosts
 alias hosts='sudo vim /etc/hosts'
