@@ -22,6 +22,9 @@ alias bash='vim ~/.bash_profile'
 # reload shell
 alias reload='source ~/.bash_profile'
 
+# edit httpd.conf
+alias httpd='sudo vim /etc/apache2/httpd.conf'
+
 # colored search in files
 alias grep='grep --color=auto'
 
