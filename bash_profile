@@ -19,6 +19,9 @@ alias .....='cd ../../../../'
 # bash
 alias bash='vim ~/.bash_profile'
 
+# php.ini
+alias phpini='sudo vim /usr/local/etc/php/5.6/php.ini'
+
 # reload shell
 alias reload='source ~/.bash_profile'
 
@@ -27,6 +30,9 @@ alias httpd='sudo vim /etc/apache2/httpd.conf'
 
 # edit httpd-vhosts.conf
 alias vhosts='sudo vim /private/etc/apache2/extra/httpd-vhosts.conf'
+
+# apache log
+alias log='sudo vim /private/var/log/apache2/error_log'
 
 # colored search in files
 alias grep='grep --color=auto'
@@ -37,6 +43,8 @@ alias lexisass='cd /Users/arbitrarily/Git/lexichronic-v3/wp-content/themes/lexiv
 alias aggro='cd /Users/arbitrarily/Git/datnexus'
 alias aggrosass='cd /Users/arbitrarily/Git/datnexus/wp-content/themes/datnexus/grunt'
 alias nt='cd /Users/arbitrarily/Git/nextravel'
+alias ntsass='cd /Users/arbitrarily/Git/nextravel/singapore/grunt'
+alias rosesass='cd /Users/arbitrarily/Git/roserenegades/wp-content/themes/roserenegades/grunt'
 
 # hosts
 alias hosts='sudo vim /etc/hosts'
@@ -45,7 +53,7 @@ alias hosts='sudo vim /etc/hosts'
 alias keys='pbcopy < ~/.ssh/id_rsa.pub'
 
 # find todos
-alias todos='ack -n --nogroup "(TODO|FIND|FIX(ME)?):"'
+alias todos='ack -n -R --nogroup "(TODO|FIND|FIX(ME)?):" --ignore-dir={composer,vendor,vendors,min,lib}'
 
 # find by name
 alias qfind="find . -name "
